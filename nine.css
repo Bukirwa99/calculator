@@ -18,3 +18,59 @@ body{
     position: relative;
     box-shadow:0 4px 8px 0 ;
 }
+#result{
+    height: 120px;
+
+}
+#history{
+    text-align: right;
+    height: 20 px;
+    margin: 0 20px;
+    padding-top: 20 px;
+    font-size: 15px;
+    color: cadetblue;
+}
+#output{
+    text-align: right;
+    height: 60 px;
+    margin: 10px 20px;
+    font-size: 30px;
+
+}
+#keyboard{
+    height: 4000px;
+}
+.operator ,.number{
+    height: 50px;
+    width: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 15px;
+cursor: pointer;
+}
+.number{
+    background-color: teal;
+}
+button:nth-child(4){
+    font-size: 20px;
+    background-color: rgb(62, 35, 184);
+}
+button:nth-child(8){
+    font-size: 20px;
+    background-color: orangered;
+}
+button:nth-child(12){
+    font-size: 20px;
+    background-color: yellowgreen;
+}
+button:nth-child(16){
+    font-size: 20px;
+    background-color: palevioletred;
+}
+button:nth-child(20){
+    font-size: 20px;
+    background-color: orangered;
+}
